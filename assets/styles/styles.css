@@ -1,0 +1,56 @@
+body{
+    font-family: 'Pacifico', cursive;
+    background-color: aliceblue;
+    font-display: blue;
+}
+
+h1{
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    justify-content: center;
+}
+
+.navlinks{
+    display:flex;
+    justify-content: space-evenly;
+    /*font-family: poppins;*/
+    /*font-size: ;*/
+    font-weight: 300;
+    /*color: white;*/
+  }
+  
+  .navlinks li{
+    display: inline-block;
+    /*font-family: poppins;*/
+    font-weight: 100;
+    font-size: large;
+   /* padding: 0 30px;
+    color:white;*/
+  }
+
+  .about-me{
+    margin-top: 10vh;
+    margin-left:30vh;
+    display: inline-flexbox;
+  }
+
+  h2{
+    display: flex;
+    justify-content: left;
+    margin-top: 10vh;
+    margin-left: 20vh;
+    
+}
+
+.image-entry{
+    display:flex;
+    /*flex-direction: column;*/
+    background-image: url(/assets/images/Group_6.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    
+}
+  
+
+
