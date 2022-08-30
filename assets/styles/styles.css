@@ -1,7 +1,7 @@
 body{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Merriweather', regular;
     background-color: aliceblue;
-    font-display: blue;
+    
 }
 
 h1{
@@ -10,7 +10,10 @@ h1{
     margin-bottom: 15vh;
     justify-content: center;
 }
+.page-one{
 
+margin-bottom: 20vh;
+}
 .navlinks{
     display:flex;
     justify-content: space-evenly;
@@ -22,9 +25,9 @@ h1{
   
   .navlinks li{
     display: inline-block;
-    /*font-family: poppins;*/
-    font-weight: 100;
+    font-weight: 400;
     font-size: large;
+    color: blueviolet;
    /* padding: 0 30px;
     color:white;*/
   }
