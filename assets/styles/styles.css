@@ -7,20 +7,18 @@ body{
 h1{
     display: flex;
     margin-top: 10vh;
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
     justify-content: center;
 }
 .page-one{
-
 margin-bottom: 20vh;
 }
+
 .navlinks{
     display:flex;
     justify-content: space-evenly;
-    /*font-family: poppins;*/
-    /*font-size: ;*/
     font-weight: 300;
-    /*color: white;*/
+    
   }
   
   .navlinks li{
@@ -34,26 +32,83 @@ margin-bottom: 20vh;
 
   .about-me{
     margin-top: 10vh;
-    margin-left:30vh;
-    display: inline-flexbox;
+    margin-left:10vh;
+    display: flex;
+  }
+
+  .image-size{
+    width:20vh;
+    height:20vh;
+    margin-right: 5%;
+    margin-left: 2%;
+    border-radius: 50%;
   }
 
   h2{
     display: flex;
     justify-content: left;
     margin-top: 10vh;
-    margin-left: 20vh;
+    margin-left:10vh;
     
 }
 
 .image-entry{
     display:flex;
     /*flex-direction: column;*/
-    background-image: url(/assets/images/Group_6.png);
+    background-image: url(/assets/images/RP.JPG);
     background-repeat: no-repeat;
     background-position:left;
     
 }
+
+.page-two{
+
+}
   
+.page-two-text{
+  display:flex;
+  justify-content: center;
+  font-size: x-large;
+  padding-top: 55px;
+  padding-bottom: 25px;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+  
+}
+
+.project-entries{
+  display:flex;
+  flex-direction: row;
+}
+.coloumn img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%
+}
+
+.link-container{
+ display:flex;
+ flex-direction: row-reverse;
+ background-color: aqua;
+ max-width: 45%;
+ align-items: flex-end;
+ 
+}
+
+.small-link{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  font-size: medium;
+  font-style: italic;
+  font-weight: 300;
+  
+}
 
 
