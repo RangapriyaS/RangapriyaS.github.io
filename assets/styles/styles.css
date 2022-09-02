@@ -49,8 +49,8 @@ margin-bottom: 20vh;
     justify-content: left;
     margin-top: 10vh;
     margin-left:10vh;
-    
-}
+  }
+
 
 .image-entry{
     display:flex;
@@ -60,7 +60,14 @@ margin-bottom: 20vh;
     background-position:left;
     
 }
-
+.perf-image-entry{
+  display:flex;
+  /*flex-direction: column;*/
+  background-image: url(/assets/images/application-performance-management.png);
+  background-repeat: no-repeat;
+  background-position:left;
+  
+}
 .page-two{
 
 }
