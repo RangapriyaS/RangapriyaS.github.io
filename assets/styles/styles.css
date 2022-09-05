@@ -1,12 +1,12 @@
 body{
     font-family: 'Merriweather', regular;
     background-color: aliceblue;
+    font-size: large;
     
 }
 
 h1{
     display: flex;
-    margin-top: 10vh;
     margin-bottom: 5vh;
     justify-content: center;
 }
@@ -68,6 +68,10 @@ margin-bottom: 20vh;
   background-position:left;
   
 }
+.text{
+  display:flex;
+  align-items: center;
+}
 .page-two{
 
 }
@@ -103,9 +107,12 @@ margin-bottom: 20vh;
  display:flex;
  flex-direction: row-reverse;
  background-color: aqua;
- max-width: 45%;
  align-items: flex-end;
  
+}
+.right-align{
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .small-link{
